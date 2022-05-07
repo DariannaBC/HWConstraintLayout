@@ -36,7 +36,8 @@
         app:layout_constraintGuide_percent="0.3"
         />
 
-  <TextView
+  <View
+      android:background="@color/material_dynamic_tertiary50"
       android:layout_width="0dp"
       android:layout_height="0dp"
       android:text="Darianna esta encantada con Android"
