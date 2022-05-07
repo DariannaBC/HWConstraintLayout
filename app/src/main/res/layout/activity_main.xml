@@ -8,44 +8,39 @@
 
   <androidx.constraintlayout.widget.Guideline
       android:id="@+id/guidelineStart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5"
-        />
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      app:layout_constraintGuide_percent="0.2" />
+  <androidx.constraintlayout.widget.Guideline
+      android:id="@+id/guidelineEnd"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      app:layout_constraintGuide_percent="0.4" />
+  <androidx.constraintlayout.widget.Guideline
+      android:id="@+id/guidelineTop"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      app:layout_constraintGuide_percent="0.2" />
+  <androidx.constraintlayout.widget.Guideline
+      android:id="@+id/guidelineBottom"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      app:layout_constraintGuide_percent="0.4" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guidelineEnd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.8"
-        />
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guidelineButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.45"
-        />
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guidelineTop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.3"
-        />
-
-  <View
-      android:background="@color/material_dynamic_tertiary50"
+  <TextView
+      android:id="@+id/tvExample"
       android:layout_width="0dp"
       android:layout_height="0dp"
-      android:text="Darianna esta encantada con Android"
+      android:textSize="21sp"
+      android:text="Esto es un ejemplo de un texto con guidelines"
       app:layout_constraintTop_toTopOf="@id/guidelineTop"
-      app:layout_constraintBottom_toBottomOf="@id/guidelineButton"
+      app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"
       app:layout_constraintStart_toStartOf="@id/guidelineStart"
-      app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
-    />
+      app:layout_constraintEnd_toEndOf="@id/guidelineEnd"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
