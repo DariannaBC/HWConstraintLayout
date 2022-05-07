@@ -39,6 +39,7 @@
   <TextView
       android:layout_width="0dp"
       android:layout_height="0dp"
+      android:text="Darianna esta encantada con Android"
       app:layout_constraintTop_toTopOf="@id/guidelineTop"
       app:layout_constraintBottom_toBottomOf="@id/guidelineButton"
       app:layout_constraintStart_toStartOf="@id/guidelineStart"
