@@ -17,7 +17,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:orientation="vertical"
-      app:layout_constraintGuide_percent="0.4" />
+      app:layout_constraintGuide_percent="0.5" />
   <androidx.constraintlayout.widget.Guideline
       android:id="@+id/guidelineTop"
       android:layout_width="wrap_content"
@@ -29,14 +29,14 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:orientation="horizontal"
-      app:layout_constraintGuide_percent="0.4" />
+      app:layout_constraintGuide_percent="0.5" />
 
   <TextView
       android:id="@+id/tvExample"
       android:layout_width="0dp"
       android:layout_height="0dp"
       android:textSize="21sp"
-      android:text="Esto es un ejemplo de un texto con guidelines"
+      android:text="Darianna ama Android"
       app:layout_constraintTop_toTopOf="@id/guidelineTop"
       app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"
       app:layout_constraintStart_toStartOf="@id/guidelineStart"
